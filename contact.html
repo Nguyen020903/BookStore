@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Book Shop</title>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="Assets\Images\ph.png" alt="logo">
+                </a>
+                <input class="navbar-btn" type="checkbox" id="navbar-btn">
+                <label class="navbar-icon" for="navbar-btn">
+                    <span class="nav-icon"></span>
+                </label>
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="category.html">Category I</a></li>
+                    <li><a href="category.html">Category II</a></li>
+                    <li><a href="category.html">Category III</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <form action="">
+                    <h1>Contact Us</h1>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="c-purpose">Contact Purpose</label>
+                        </div>
+                        <div class="col-75">
+                            <select name="c-purpose" id="c-purpose">
+                                <option value="buy">I want to buy books</option>
+                                <option value="sell">I want to sell books</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="name">Name</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="name" name="name" placeholder="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="email">Email</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="email" id="email" name="email" placeholder="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="phone">Phone</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="number" id="phone" name="phone" placeholder="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-25">
+                              <label for="checkbox">How can we contact you:</label>
+                            </div>
+                            <div class="col-75">
+                                <div>
+                                    <label>
+                                      <input type="checkbox">
+                                      By email
+                                    </label>
+                                    <label>
+                                      <input type="checkbox">
+                                      By phone
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="radio">Do you want to receive our weekly newsletter:</label>
+                        </div>
+                        <div class="col-75">
+                            <div>
+                                <label>
+                                  <input type="radio" name="choice-radio" checked="checked">
+                                  Yes
+                                </label>
+                                <label>
+                                  <input type="radio" name="choice-radio">
+                                  No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="note">Note</label>
+                        </div>
+                        <div class="col-75">
+                          <textarea name="note" id="note" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                    <div class="row">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <ul class="list">
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+                <li>
+                    <a href="#">Copyright</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </footer>   
+    </body>
+</html>

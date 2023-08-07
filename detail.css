@@ -1,0 +1,142 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+}
+
+/* header */
+header {
+    height: 70px;
+    position: relative;
+}
+
+/** navigation bar **/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px;
+    background-color: #333;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 8px;
+    padding: 0px 10px;
+    display: flex;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+}
+nav ul li a:hover{
+    border-radius: 2px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 2px 2px 20px rgba(230, 182, 111, 0.897);
+}
+nav .navbar-btn{
+    display: none;
+}
+
+.logo img{
+    height: 45px;
+}
+
+/* head breadcrumb */
+.head-flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-flex-container a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* body */
+.buying-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.small-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.small-container img {
+    margin: 10px 0 10px 0;
+}
+
+.book-detail
+/* button */
+.btn {
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+
+/* footer */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-decoration: none;
+}
+.flex-container-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin-top: 8px;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav-content {
+    display: block;
+    padding-left: 12px;
+}
+
+.footer-nav-content a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
